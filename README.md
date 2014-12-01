@@ -1,7 +1,7 @@
 Cache Wrapper for Java
 ======================
 
-This is a generic wrapper to manage any target cache system. At this moment it only one target implementation:
+This is a generic wrapper to manage any target cache system. At this moment it only includes one target implementation:
 - Iron.io cache -> Iron.io (http://www.iron.io/) is cloud-based message queueing and async task processing. 
 Iron has its own cache system which is helpful for the applications you deploy under iron.io environment. To integrate with Iron's
 cache system I make use of this java client: <a href="https://github.com/mrcritical/ironcache">ironcache</a>.
